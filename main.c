@@ -11,7 +11,7 @@ int main()
     
     sum = digit_sum(num);
     
-    printf("Sum of digits of %d is %d", num, sum);
+    printf("sum of digits of %d is %d \n", num, sum);
     
     return 0;
 }
