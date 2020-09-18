@@ -6,12 +6,12 @@ int main()
 {
     int num, sum;
     
-    printf("Enter an int: ");
+    printf("Enter an int: \n");
     scanf("%d", &num);
     
     sum = digit_sum(num);
     
-    printf("\nsum of digits of %d is %d. ", num, sum);
+    printf("\nsum of digits of %d is %d. \n ", num, sum);
     
     return 0;
 }
